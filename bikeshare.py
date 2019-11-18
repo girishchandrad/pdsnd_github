@@ -5,7 +5,7 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
-
+# Constant to be used in multiple functions.
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
 
 def get_filters():
