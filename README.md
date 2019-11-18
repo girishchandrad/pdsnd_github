@@ -9,7 +9,7 @@ When it comes to effective analysis of data and scientific computing, python and
 
 ## Installation, setup and files used.
 * Check whether Python 3.x is installed by entering python in a command line for windows.
-* See this article for installing python, pandas, NumPy at this [link](https://www.dev2qa.com/how-to-install-python-package-numpy-pandas-scipy-matplotlib-on-windows-mac-and-linux/)
+* [Article on how to install, pandas, NumPy](https://www.dev2qa.com/how-to-install-python-package-numpy-pandas-scipy-matplotlib-on-windows-mac-and-linux/)
 * All three csv files viz. *chicago.csv, new_york_city.csv, washington.csv* and python script *bikeshare.py* must be placed in directory.
 * Run python script using command line / interpreter.
 
@@ -17,7 +17,7 @@ When it comes to effective analysis of data and scientific computing, python and
 ## Documentations and Resources 
 This repository used following documents and resources for analyzing data of bikeshare usage among three cities in United States.  
 * [Stackoverflow Pandas Filter](https://stackoverflow.com/questions/23323974/pandas-filter-rows-based-on-multiple-conditions)
-* [Python Indentation]https://docs.python.org/2.0/ref/indentation.html
+* [Python Indentation](https://docs.python.org/2.0/ref/indentation.html)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
 
 
