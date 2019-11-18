@@ -19,5 +19,6 @@ This repository used following documents and resources for analyzing data of bik
 * [Stackoverflow Pandas Filter](https://stackoverflow.com/questions/23323974/pandas-filter-rows-based-on-multiple-conditions)
 * [Python Indentation](https://docs.python.org/2.0/ref/indentation.html)
 * [Automate the Boring Stuff with Python](https://automatetheboringstuff.com/)
+* [Documenting your project n GitHub](https://guides.github.com/features/wikis/)
 
 
