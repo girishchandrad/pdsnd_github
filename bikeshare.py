@@ -8,6 +8,7 @@ CITY_DATA = { 'chicago': 'chicago.csv',
 
 
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
+# Refactor and create Constants for days and cities.
 DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
 CITIES = ['chicago', 'new york city', 'washington']
 
