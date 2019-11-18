@@ -5,8 +5,16 @@ import numpy as np
 CITY_DATA = { 'chicago': 'chicago.csv',
               'new york city': 'new_york_city.csv',
               'washington': 'washington.csv' }
+<<<<<<< HEAD
 # Constant to be used in multiple functions.
+=======
+
+
+>>>>>>> refactoring
 MONTHS = ['january', 'february', 'march', 'april', 'may', 'june', 'all']
+# Refactor and create Constants for days and cities.
+DAYS = ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']
+CITIES = ['chicago', 'new york city', 'washington']
 
 def get_filters():
     """
@@ -23,7 +31,7 @@ def get_filters():
     
     while True:
         city = input('Experience the best way to get around Chicago, New York City or Washington. Which city you want to explore? \n ->')        
-        if city.lower() in ['chicago', 'new york city', 'washington']:
+        if city.lower() in CITIES:
             city = city.lower()
             break
         else:
@@ -41,7 +49,7 @@ def get_filters():
     # TO DO: get user input for day of week (all, monday, tuesday, ... sunday)
     while True:
         day = input('Awesome! Now select a day. The options are :\n \'all\' to select all or Monday, Tuesday, Wednesday, Thursday, Friday, Saturday, Sunday  \n ->' )
-        if day.lower() in ['monday', 'tuesday', 'wednesday', 'thursday', 'friday', 'saturday', 'sunday', 'all']:
+        if day.lower() in DAYS:
             day = day.lower()
             break
         else:
